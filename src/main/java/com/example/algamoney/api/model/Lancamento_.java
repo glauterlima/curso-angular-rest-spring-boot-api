@@ -21,4 +21,3 @@ public abstract class Lancamento_ {
 	public static volatile SingularAttribute<Lancamento, String> descricao;
 
 }
-
