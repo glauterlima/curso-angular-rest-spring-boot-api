@@ -87,9 +87,16 @@
     		<artifactId>hibernate-jpamodelgen</artifactId>
     	</dependency>
 		
+		<!-- Dependência para oauth2 -->
 		<dependency>
 			<groupId>org.springframework.security.oauth</groupId>
 			<artifactId>spring-security-oauth2</artifactId>
+		</dependency>
+		
+		<!-- Dependência para configurar JWT -->
+		<dependency>
+			<groupId>org.springframework.security</groupId>
+			<artifactId>spring-security-jwt</artifactId>
 		</dependency>
 		
 	</dependencies>
